@@ -20,7 +20,9 @@ jobs:
         cache: 'npm'
     - name: Install npm dependencies
       run: npm install
+    - name: My name is
+      run: echo "My name is crashone
     - name: Run unit tests
       run: npm run test:unit
-    - name: Run UI tests  
+    - name: Run UI tests
       run: npm run test:ui
