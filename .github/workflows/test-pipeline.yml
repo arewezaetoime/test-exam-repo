@@ -20,8 +20,13 @@ jobs:
         cache: 'npm'
     - name: Install npm dependencies
       run: npm install
+<<<<<<< HEAD
     - name: My name is
       run: echo "My name is crashone
+=======
+    - name: install chromium and other
+      run: npx playwright install
+>>>>>>> bf7fedaf3933bd98821f74bd998eed8aacdfc5cd
     - name: Run unit tests
       run: npm run test:unit
     - name: Run UI tests
