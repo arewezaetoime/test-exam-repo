@@ -23,8 +23,6 @@ jobs:
         cache: 'npm'
     - name: Install npm packages
       run: npm install
-    - name: Run the app
-      run: npm run start
     - name: Install Playwright
       run: npx playwright install
     - name: Running the unit tests
